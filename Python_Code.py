@@ -13,13 +13,10 @@ Tower_of_Hanoi(n,'A','C','B')
 
 # Fibonacci
 
-def Fibonacci(terms):
-	a,b=1,1;
-	count=1
-	while(count<=terms):
-		print(a)
-		a,b=b,a+b
-		count+=1
+def Fibonacci(n):
+	if(n<2):
+		return n
+	return(Fibonacci(n-1)+Fibonacci(n-2))
 
 x=int(sys.argv[2])
 Fibonacci(x)
