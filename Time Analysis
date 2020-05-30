@@ -1,11 +1,11 @@
 							Digital_Depth_Perception
 
 							1.Time Analysis
-INPUT			TIME TAKEN IN PYTHON							TIME TAKEN IN PYTHON WITH C
+INPUT(seconds)	  TIME TAKEN IN PYTHON							TIME TAKEN IN PYTHON WITH C
 		  Tower Of Hanoi					                          Tower Of Hanoi
 
 10               0.005844831466674805                                                             0.0023140907287597656
 
 20               5.152                                                                                2.877
 
-22               23.267719268798828                                                                11.280304193496704
+22                23.267719268798828                                                                11.280304193496704
