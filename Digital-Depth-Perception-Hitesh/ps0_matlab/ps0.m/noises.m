@@ -1,0 +1,9 @@
+img1=imread('img1.tiff');
+noised_green=img1;
+noised_green(:,:,2)=imnoise(noised_green(:,:,2),"gaussian",0,0.04);
+imshow(noised_green);
+imwrite(noised_green,'ps0-5-a-1.png');
+noised_blue=img1;
+noised_blue(:,:,3)=imnoise(noised_blue(:,:,3),'gaussian',0,0.04);
+imshow(noised_blue)
+imwrite(noised_blue,'ps0-5-b-1.png');
